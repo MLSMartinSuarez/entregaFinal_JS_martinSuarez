@@ -108,7 +108,7 @@ const main = document.createElement("main");
 
                 const nombreProducto2 = document.createElement("h3");
                 nombreProducto2.classList.add("productoNombre");
-                nombreProducto1.innerHTML = "Final Fantasy IX"
+                nombreProducto2.innerHTML = "Final Fantasy IX"
 
                 const precioProducto2 = document.createElement("h4");
                 precioProducto2.classList.add("precioProducto");
@@ -130,7 +130,7 @@ const main = document.createElement("main");
 
                 const nombreProducto3 = document.createElement("h3");
                 nombreProducto3.classList.add("productoNombre");
-                nombreProducto1.innerHTML = "Final Fantasy XVI"
+                nombreProducto3.innerHTML = "Final Fantasy XVI"
 
                 const precioProducto3 = document.createElement("h4");
                 precioProducto3.classList.add("precioProducto");
@@ -145,14 +145,14 @@ const main = document.createElement("main");
 
         const imagenProducto4 = document.createElement("img");
         imagenProducto4.classList.add("foto")
-        imagenProducto4.setAttribute("src", "./img/ff14COS.jpeg");
+        imagenProducto4.setAttribute("src", "./img/ff14COS.png");
 
             const divProducto4 = document.createElement("div")
-            divProducto3.classList.add("productoInfo");
+            divProducto4.classList.add("productoInfo");
 
                 const nombreProducto4 = document.createElement("h3");
                 nombreProducto4.classList.add("productoNombre");
-                nombreProducto4.innerHTML = "Cosplay COMPLETO Alphinaud"
+                nombreProducto4.innerHTML = "Cosplay COMPLETO ff14"
 
                 const precioProducto4 = document.createElement("h4");
                 precioProducto4.classList.add("precioProducto");
@@ -167,7 +167,7 @@ const main = document.createElement("main");
 
         const imagenProducto5 = document.createElement("img");
         imagenProducto5.classList.add("foto")
-        imagenProducto5.setAttribute("src", "./img/tifaCOS.jpeg");
+        imagenProducto5.setAttribute("src", "./img/tifaCOS.png");
 
             const divProducto5 = document.createElement("div")
             divProducto5.classList.add("productoInfo");
@@ -189,7 +189,7 @@ const main = document.createElement("main");
 
         const imagenProducto6 = document.createElement("img");
         imagenProducto6.classList.add("foto")
-        imagenProducto6.setAttribute("src", "./img/tifaPELUCA.jpeg");
+        imagenProducto6.setAttribute("src", "./img/tifaPELUCA.png");
 
             const divProducto6 = document.createElement("div")
             divProducto6.classList.add("productoInfo");
@@ -211,7 +211,8 @@ const main = document.createElement("main");
 
         const imagenProducto7 = document.createElement("img");
         imagenProducto7.classList.add("foto")
-        imagenProducto7.setAttribute("src", "./img/muñecoAGRIAS.webp");
+        imagenProducto7.setAttribute("id", "fotoAgrias");
+        imagenProducto7.setAttribute("src", "./img/muñecoAGRIAS.png");
 
             const divProducto7 = document.createElement("div")
             divProducto7.classList.add("productoInfo");
@@ -233,7 +234,7 @@ const main = document.createElement("main");
 
         const imagenProducto8 = document.createElement("img");
         imagenProducto8.classList.add("foto")
-        imagenProducto8.setAttribute("src", "./img/muñecoCloud.webp");
+        imagenProducto8.setAttribute("src", "./img/muñecoCloud.png");
 
             const divProducto8 = document.createElement("div")
             divProducto8.classList.add("productoInfo");
@@ -255,7 +256,7 @@ const main = document.createElement("main");
 
         const imagenProducto9 = document.createElement("img");
         imagenProducto9.classList.add("foto")
-        imagenProducto9.setAttribute("src", "./img/muñecoFF13.webp");
+        imagenProducto9.setAttribute("src", "./img/muñecoFF13.png");
 
             const divProducto9 = document.createElement("div")
             divProducto9.classList.add("productoInfo");

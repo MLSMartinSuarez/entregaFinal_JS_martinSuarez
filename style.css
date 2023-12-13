@@ -29,7 +29,7 @@ body{
 .asideNav{
     position: sticky;
     top: 0px;
-    background-color: rgba(10, 10, 10, 0.24);
+    background-color: rgba(10, 10, 10, 0.658);
     box-shadow: 0px 0px 7px 11px rgb(112 204 196 / 29%);
     height: 100vh;
     display: flex;
@@ -45,11 +45,11 @@ body{
 }
 
 .mainProducto{
-    background-color: rgba(10, 10, 10, 0.24);
+    background-color: rgba(10, 10, 10, 0.658);
     box-shadow: -1px 2px 4px 9px rgb(112 204 196 / 29%);
     margin: 22px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 44px;
 }
 
 .tituloIndex{
@@ -60,9 +60,59 @@ body{
 .productos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 66px;
+    align-items: center;
 }
 
 .foto{
     max-width: 100%;
 }
+
+.productoInfo{
+    background-color: rgba(255, 255, 255, 0.671);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+#fotoAgrias{
+    margin-left: 20px;
+}
+
+.productoNombre{
+    text-align: center;
+}
+
+.botonCompra{
+    /* border: 1; */
+    background-color: rgba(58, 213, 240, 0.493);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.botonCompra:hover{
+    background-color: transparent;
+    transition: all .5s;
+
+}
+
+.precioProducto{
+    text-align: center;
+}
+
+.productoFoto{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
 
